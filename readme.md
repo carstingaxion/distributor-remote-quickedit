@@ -22,21 +22,29 @@ This Add-on is maintained at and deployed from [carstingaxion/distributor-remote
 
  * Use native WordPress quickedit on the receiving side of a distributed post to make minor changes, which is disabled by the *Distributor*-plugin by default.
 
+### Compatibility
+
+This plugin is an add-on, it requires:
+
+* Distributor ([Website](https://distributorplugin.com/)|[GitHub](https://github.com/10up/distributor))
+
 ### Usage
 
 ***This plugin does nothing by default.***
 
-In order to re-enable quickedit for a particular post_type you need to `add_post_type_support()` for *`distributor-remote-quickedit`* onto your desired post_type at first. 
+Being able to modify posts, that were syndicated from a remote source, is a risky thing. To prevent any unwanted side-effects you have to pro-actively enable this plugin by code.
 
-You can do it like so:
+In order to re-enable the quick-edit functionality for a particular post_type you need to call `add_post_type_support()` for a support-feature called *`distributor-remote-quickedit`*. Do this for every desired post_type before this plugin loads. 
+
+With a post_type of `book`, you could do it like so:
 
 ~~~php
 add_action( 'admin_init', function () {
-	add_post_type_support( 'post', 'distributor-remote-quickedit' );
+	add_post_type_support( 'book', 'distributor-remote-quickedit' );
 }, 9 );
 ~~~
 
-It's important to declare your post_type_supports before the plugin is executed on `admin_init|10`!
+**It's important to declare your post_type_supports before the plugin is executed on `admin_init` with a default priority of `10`!**
 
 ## Frequently Asked Questions
 
