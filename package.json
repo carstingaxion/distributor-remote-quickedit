@@ -6,7 +6,7 @@
   "author": "Carsten Bach",
   "repository": "carstingaxion/distributor-remote-quickedit",
   "devDependencies": {
-    "@actions/github": "^3",
+    "@actions/github": "^2",
     "replace-in-file": "^5",
     "semver": "^7",
     "version-bump-prompt": "^6.1.0"
