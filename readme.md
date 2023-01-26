@@ -1,6 +1,6 @@
 # Distributor - Remote Quickedit
 
-Stable tag: 0.1.0  
+Stable tag: 0.2.0  
 Requires at least: 5.9  
 Tested up to: 6.1.1  
 Requires PHP: 7.1  
