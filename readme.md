@@ -1,12 +1,14 @@
 # Distributor - Remote Quickedit
 
-Stable tag: 0.1.1  
+Stable tag: 0.1.0  
 Requires at least: 5.9  
 Tested up to: 6.1.1  
 Requires PHP: 7.1  
 License: GPL v3 or later  
 Tags: distributor, quickedit  
 Contributors: carstenbach  
+
+![](.wordpress-org/banner-1544x500.png)
 
 Re-enable quickedit for distributed posts.
 
