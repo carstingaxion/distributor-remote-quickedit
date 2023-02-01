@@ -185,7 +185,7 @@ function _ajax_wp_die_handler( $message, $title = '', $args = array() ) {
 		die( $message );
 	}
 
-	echo $message;
+	echo esc_html( $message );
 }
 
 
