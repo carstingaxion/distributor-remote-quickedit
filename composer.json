@@ -1,0 +1,22 @@
+{
+	"name": "carstingaxion/distributor-remote-quickedit",
+    "description": "temp and local TEST for distributor-remote-quickedit",
+    "type": "wordpress-plugin",
+    "keywords": ["wordpress", "wordpress-muplugin"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "figuren.theater",
+            "email": "info@figuren.theater"
+        },
+        {
+            "name": "Carsten Bach",
+            "email": "mail@carsten-bach.de",
+            "homepage": "https://carsten-bach.de",
+            "role": "Developer"
+        }
+    ],
+	"require": {
+        "php": ">=7.1"
+	}
+}
