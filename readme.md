@@ -1,9 +1,9 @@
 # Distributor - Remote Quickedit
 
 Stable tag: 0.2.0  
-Requires at least: 5.9  
+Requires at least: 5.1.0  
 Tested up to: 6.1.1  
-Requires PHP: 7.1  
+Requires PHP: 7.0  
 License: GPL v3 or later  
 Tags: distributor, quickedit  
 Contributors: carstenbach  

@@ -19,16 +19,17 @@ namespace Distributor_Remote_Quickedit;
 use function _wp_die_process_input;
 use function add_action;
 use function add_filter;
+use function esc_html;
 use function get_current_screen;
 use function get_post_meta;
 use function get_post_types_by_support;
 use function nocache_headers;
-// use function remove_action;
 use function remove_filter;
 use function restore_current_blog;
 use function status_header;
 use function switch_to_blog;
 use function wp_ajax_inline_save;
+use function wp_die;
 use function wp_parse_args;
 
 const POST_TYPE_SUPPORT = 'distributor-remote-quickedit';
@@ -185,7 +186,7 @@ function _ajax_wp_die_handler( $message, $title = '', $args = array() ) {
 		die( $message );
 	}
 
-	echo $message;
+	echo esc_html( $message );
 }
 
 
