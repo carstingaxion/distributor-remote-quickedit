@@ -1,6 +1,6 @@
 {
   "name": "carstenbach/distributor-remote-quickedit",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Re-enable quickedit for distributed posts on the receiving site. This allows to make changes to the original post from the remote site.",
   "license": "GPL-3.0-or-later",
   "author": "Carsten Bach",

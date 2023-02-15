@@ -7,7 +7,7 @@
  * Author URI:      https://carsten-bach.de
  * Text Domain:     distributor-remote-quickedit
  * Domain Path:     /languages
- * Version:         0.2.1
+ * Version:         0.2.2
  * License:         GPL-3.0+
  * License URI:     http://www.gnu.org/licenses/gpl-3.0.txt
  *
