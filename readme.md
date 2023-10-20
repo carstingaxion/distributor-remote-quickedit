@@ -2,7 +2,7 @@
 
 Stable tag: 0.2.2  
 Requires at least: 5.1.0  
-Tested up to: 6.1.1  
+Tested up to: 6.3.2  
 Requires PHP: 7.0  
 License: GPL v3 or later  
 Tags: distributor, quickedit  
@@ -24,9 +24,9 @@ This Add-on is maintained at and deployed from [carstingaxion/distributor-remote
 
 ### Compatibility
 
-This plugin is an add-on, it requires:
+This plugin is an add-on for & requires:
 
-* Distributor ([Website](https://distributorplugin.com/)|[GitHub](https://github.com/10up/distributor))
+* Distributor ([Website](https://distributorplugin.com/)|[GitHub](https://github.com/10up/distributor)) (*only tested up to version 1.9.1, maybe not yet ready for the new 2.0.x*)
 
 ### Usage
 
